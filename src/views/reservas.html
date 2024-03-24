@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DescansaAi</title>
-    <link rel="shortcut icon" href="./src/img/sleepy1.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./src/css/_fix.css">
+    <link rel="shortcut icon" href="/src/img/sleepy1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/_fix.css">
     <script defer src="https://kit.fontawesome.com/fd7bf5e614.js" crossorigin="anonymous"></script>
-    <script defer src="./src/js/bootstrap.min.js"></script>
+    <script defer src="/src/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,27 +18,19 @@
         <div class="coitaner-fluid text-center">
             <div class="row">
                 <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
-                    <img src="./src/img/sleepy1.svg" alt="sleepy logo header" class="w-25">
-                    <a href="/index.html">
-                        <p style="color: #3684B0;" class="fs-1"><strong>Descansa Ai</strong></p>
-                    </a>
+                    <img src="/src/img/sleepy1.svg" alt="sleepy logo header" class="w-25">
+                    <a href="/index.html"><p style="color: #3684B0;" class="fs-1"><strong>Descansa Ai</strong></p></a>
                 </div>
                 <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
                     <div class="row">
                         <div class="col-sm">
-                            <a href="./src/views/acomodacoes.html">
-                                <p>Acomodações</p>
-                            </a>
+                            <a href="/src/views/acomodacoes.html"><p>Acomodações</p></a>
                         </div>
                         <div class="col-sm">
-                            <a href="./src/views/servicos.html">
-                                <p>Serviços</p>
-                            </a>
+                            <a href="/src/views/servicos.html"><p>Serviços</p></a>
                         </div>
                         <div class="col-sm">
-                            <a href="./src/views/reservas.html">
-                                <p>Reservas</p>
-                            </a>
+                            <a href="/src/views/reservas.html"><p>Reservas</p></a>
                         </div>
                     </div>
                 </div>
@@ -46,8 +38,7 @@
                     <div class="row">
                         <div class="col-sm d-flex flex-row justify-content-center">
                             <i class="fa-solid fa-image p-1 me-2"></i>
-                            <a href="./src/views/galeria.html"></a>
-                            <p>Galeria</p>
+                            <a href="/src/views/galeria.html"></a><p>Galeria</p>
                         </div>
                         <div class="col-sm d-flex flex-row justify-content-center">
                             <i class="fa-solid fa-address-book p-1 me-2"></i>
@@ -73,52 +64,46 @@
     <!--HEADER end-->
 
     <!-- MAIN -->
-    <main class="d-flex flex-column">
-        <div class="cointainer-fluid container_1">
+    <main class="m-3">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-5" style="margin-top: 10%;">
-                    <img src="./src/img/sleepy2-removebg.svg" alt="sleepy logo inicio" class="w-75">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img src="/src/img/hotel_room1.jpeg" alt="hotel room" class="w-75 rounded">
+                    <div class="d-flex flex-row mt-2">
+                        <p class="fs-3 me-5">Suíte Luxo Nebulosa</p>
+                        <i class="fa-regular fa-star fa-xl mt-3 me-2"></i>
+                        <p class="fs-3">4,8</p>
+                    </div>
+                    <div class="d-flex flex-row mt-2">
+                        <img src="/src/img/cifrao_credito.svg" alt="cifrão crédito intergalático" class="mt-3" style="height: 25px;">
+                        <p class="fs-1">1000,00</p>
+                    </div>
                 </div>
-                <div class="col-sm-5" style="margin-top: 15%;">
-                    <p class="fs-1"><strong>DescansaAi Apresenta:</strong></p>
-                    <p class="fs-3">Se você está em busca de uma experiência interplanetária inigualável, você chegou ao
-                        lugar certo. Localizada no deserto vermelho de Marte, nossa pousada oferece um oásis de
-                        tranquilidade e vistas deslumbrantes das majestosas montanhas marcianas.</p>
+                <div class="col-md-6">
+                    <p class="fs-1"><strong>Formulário de Reserva</strong></p>
+                    <p class="fs-4">Estamos quase lá!</p>
+                    <form action="">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="exampleInputName1">Nome completo</label>
+                                <input type="text" class="form-control" id="exampleInputName1"
+                                    placeholder="Nome">
+                            </div>
+                            <label for="exampleInputEmail1">Endereço de Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Seu melhor email">
+                            <small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu email com ninguém.</small>
+                        </div>
+                        <div class="form-group form-check mt-2">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Aceito os termos e condições.</label>
+                        </div>
+                        <button type="submit" class="btn mt-3" style="background-color: #3684B0;">Confirmar Reserva</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="cointainer-fluid ms-5">
-            <p class="fs-1 ms-5"><strong>Bem-vindos à Pousada das Estrelas!</strong></p>
-            <div class="container my-3">
-                <div class="row gx-3">
-                    <div class="col-lg-4 col-md-12">
-                        <img class="rounded w-100" src="./src/img/alien1.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <img class="rounded w-50" src="./src/img/hotel_room2.jpeg" alt="">
-                        <img class="rounded w-50" src="./src/img/hotel_room2.jpeg" alt="">
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <img class="rounded w-50" src="./src/img/hotel_room2.jpeg" alt="">
-                        <img class="rounded w-50" src="./src/img/hotel_room2.jpeg" alt="">
-                    </div>
-                </div>
-            </div>
         </div>
-        <p class="fs-3 ms-5"><strong>Marte, Via Láctea</strong></p>
-        <p class="fs-5 ms-5">Camas, Vista Panorâmica, Playground...</p>
-        <p class="fs-5 ms-5 mt-2">Na Pousada das Estrelas, você encontrará:</p>
-        <ul class="fs-5 ms-5">
-            <li>Vista Panorâmica Marciana: Imagine acordar com a visão das crateras e vales cobertos de poeira
-                vermelha.</li>
-            <li>Atendimento Personalizado Intergaláctico: Nossa equipe de andróides está pronta para tornar sua
-                estadia memorável.</li>
-            <li>Tranquilidade Espacial: Desconecte-se do universo e aproveite a paz e a serenidade.</li>
-        </ul>
-        <br>
-        </div>
-        <a class="btn btn-lg px-5 rounded-pill mb-5 align-self-center text-white" style="background-color: #3684B0;"
-            href="#" role="button">Faça sua reserva já!</a>
     </main>
     <!-- MAIN end-->
 
@@ -127,7 +112,7 @@
         <div class="cointainer-fluid text-white p-5 pb-0 pt-3" style="background-color: #3684B0;">
             <div class="row">
                 <div class="col-sm-1">
-                    <img src="./src/img/sleepy4.svg" alt="sleepy logo" class="w-100">
+                    <img src="/src/img/sleepy4.svg" alt="sleepy logo" class="w-100">
                 </div>
                 <div class="col-md-2">
                     <p><strong>DESCANSA AI</strong></p>
@@ -191,7 +176,7 @@
                             <!--Grid column-->
                             <div class="col-auto mb-4 mb-md-0">
                                 <!-- Submit button -->
-                                <button data-mdb-ripple-init type="button" class="btn mb-4 rounded-pill"
+                                <button data-mdb-ripple-init type="button" class="btn mb-4"
                                     style="background-color: #23668B;">
                                     Cadastrar
                                 </button>
@@ -204,7 +189,7 @@
             </div>
             <hr style="width: 90%;margin: 0 auto;" class="text-center">
             <div class="text-center p-3">
-                <img src="./src/img/khicon.svg" alt="kauehenrick logo" style="width: 40px;margin: .5em;">
+                <img src="/src/img/khicon.svg" alt="kauehenrick logo" style="width: 40px;margin: .5em;">
                 © 2024 Copyright DescansaAi
             </div>
     </footer>
