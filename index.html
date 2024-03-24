@@ -13,11 +13,11 @@
 
 <body>
     <!--HEADER-->
-    <header class="header">
+    <header class="header" style="overflow: hidden;">
         <div class="coitaner-fluid text-center">
             <div class="row">
                 <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
-                    <img src="./src/img/sleepy1.svg" alt="sleepy logo header" style="width: 100px;">
+                    <img src="./src/img/sleepy1.svg" alt="sleepy logo header" class="w-25">
                     <p style="color: #3684B0;" class="fs-1"><strong>Descansa Ai</strong></p>
                 </div>
                 <div class="col-sm-3 d-flex flex-row justify-content-center align-items-center">
@@ -49,9 +49,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm d-flex flex-row align-items-center">
+                <div class="col-sm d-flex flex-row justify-content-center align-items-center">
                     <div class="row">
-                        <div class="col-sm d-flex flex-row justify-content-center">
+                        <div class="col-sm">
                             <i class="fa-regular fa-bell me-5"></i>
                             <i class="fa-solid fa-bars"></i>
                         </div>
@@ -60,13 +60,59 @@
             </div>
         </div>
     </header>
-    <!--HEADER END-->
+    <!--HEADER end-->
+
+    <!-- MAIN -->
+    <main class="m-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-center">
+                    <img src="./src/img/hotel_room1.jpeg" alt="hotel room" class="w-75 rounded">
+                    <div class="d-flex flex-row mt-2">
+                        <p class="fs-3 me-5">Suíte Luxo Nebulosa</p>
+                        <i class="fa-regular fa-star fa-xl mt-3 me-2"></i>
+                        <p class="fs-3">4,8</p>
+                    </div>
+                    <div class="d-flex flex-row mt-2">
+                        <img src="./src/img/cifrao_credito.svg" alt="cifrão crédito intergalático"
+                            style="height: 35px;">
+                        <p class="fs-1">1000,00</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="fs-1"><strong>Formulário de Reserva</strong></p>
+                    <p class="fs-4">Estamos quase lá!</p>
+                    <form action="">
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="exampleInputName1">Nome completo</label>
+                                <input type="text" class="form-control" id="exampleInputName1"
+                                    placeholder="Nome">
+                            </div>
+                            <label for="exampleInputEmail1">Endereço de Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Seu melhor email">
+                            <small id="emailHelp" class="form-text text-muted">Nós nunca compartilharemos seu email com ninguém.</small>
+                        </div>
+                        <div class="form-group form-check mt-2">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Aceito os termos e condições.</label>
+                        </div>
+                        <button type="submit" class="btn mt-3" style="background-color: #3684B0;">Confirmar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <!-- MAIN end-->
+
     <!-- FOOTER -->
     <footer class="footer">
         <div class="cointainer-fluid text-white p-5 pb-0 pt-3" style="background-color: #3684B0;">
             <div class="row">
                 <div class="col-sm-1">
-                    <img src="./src/img/sleepy4.svg" alt="sleepy logo" style="width: 100px;">
+                    <img src="./src/img/sleepy4.svg" alt="sleepy logo" class="w-100">
                 </div>
                 <div class="col-md-2">
                     <p><strong>DESCANSA AI</strong></p>
@@ -147,7 +193,7 @@
                 © 2024 Copyright DescansaAi
             </div>
     </footer>
-    <!-- FOOTER END -->
+    <!-- FOOTER end -->
 </body>
 
 </html>
